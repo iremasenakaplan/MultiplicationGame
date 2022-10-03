@@ -11,10 +11,20 @@ public class SubmenuManager : MonoBehaviour
         
     }
     
-public void HangiOyunAcilsin(string hangiOyun)
-{
-    PlayerPrefs.SetString("hangiOyun", hangiOyun); //PlayerPrefs key created.
-    SceneManager.LoadScene("GameLevel");
-}
+    public void HangiOyunAcilsin(string hangiOyun)
+    {
+      PlayerPrefs.SetString("hangiOyun", hangiOyun); //PlayerPrefs key created.
+      SceneManager.LoadScene("GameLevel");
+    }
    
+
+    public void ReturnButton()
+    {
+
+     SceneManager.LoadScene("MenuLevel");
+
+    }  
+
+
+
 }
