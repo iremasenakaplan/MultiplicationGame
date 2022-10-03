@@ -206,7 +206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 43380395}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 930549603}
+        m_TargetAssemblyTypeName: SubmenuManager, Assembly-CSharp
+        m_MethodName: HangiOyunAcilsin
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: three
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &43380395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -463,7 +475,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 179435871}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 930549603}
+        m_TargetAssemblyTypeName: SubmenuManager, Assembly-CSharp
+        m_MethodName: HangiOyunAcilsin
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: mix
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &179435871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -585,7 +609,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 194705675}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 930549603}
+        m_TargetAssemblyTypeName: SubmenuManager, Assembly-CSharp
+        m_MethodName: HangiOyunAcilsin
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ten
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &194705675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -707,7 +743,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 204130357}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 930549603}
+        m_TargetAssemblyTypeName: SubmenuManager, Assembly-CSharp
+        m_MethodName: HangiOyunAcilsin
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: four
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &204130357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -964,7 +1012,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 228686896}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 930549603}
+        m_TargetAssemblyTypeName: SubmenuManager, Assembly-CSharp
+        m_MethodName: HangiOyunAcilsin
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: six
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &228686896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1356,7 +1416,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 463575592}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 930549603}
+        m_TargetAssemblyTypeName: SubmenuManager, Assembly-CSharp
+        m_MethodName: HangiOyunAcilsin
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: five
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &463575592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1613,7 +1685,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 651501917}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 930549603}
+        m_TargetAssemblyTypeName: SubmenuManager, Assembly-CSharp
+        m_MethodName: HangiOyunAcilsin
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: seven
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &651501917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1870,7 +1954,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 763333841}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 930549603}
+        m_TargetAssemblyTypeName: SubmenuManager, Assembly-CSharp
+        m_MethodName: HangiOyunAcilsin
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: nine
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &763333841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2159,7 +2255,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 919370727}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 930549603}
+        m_TargetAssemblyTypeName: SubmenuManager, Assembly-CSharp
+        m_MethodName: HangiOyunAcilsin
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: two
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &919370727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2207,6 +2315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 930549602}
+  - component: {fileID: 930549603}
   m_Layer: 0
   m_Name: menuManager
   m_TagString: Untagged
@@ -2229,6 +2338,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &930549603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930549600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3456f343a1525ff48906f3a36713d3c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &941537971
 GameObject:
   m_ObjectHideFlags: 0
@@ -2857,7 +2978,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1348939330}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 930549603}
+        m_TargetAssemblyTypeName: SubmenuManager, Assembly-CSharp
+        m_MethodName: HangiOyunAcilsin
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: eight
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1348939330
 MonoBehaviour:
   m_ObjectHideFlags: 0
