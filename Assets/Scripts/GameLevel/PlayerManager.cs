@@ -3,27 +3,44 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
-{
-    [SerializeField]
-    private Transform gun;
-    
-     float angle;
-     float donusHizi = 5f;
+{   
+    public GameObject cannonBallPrefab;
+    public Transform firePoint;
 
-    void Update()
+    private Camera _cam;
+    private bool _pressingMouse = false;
+
+    private Vector3 _initialVelocity;
+
+    void Start()
     {
-        RotateDegistir();
+        _cam = Camera.main;
     }
 
-    void RotateDegistir()
+    
+    void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0))
+        _pressingMouse=true;
+        if(Input.GetMouseButtonUp(0))
         {
-            Vector2 direction = Camera.main.ScreenToWorldPoint(Input.mousePosition)-gun.transform.position;
-            angle=Mathf.Atan2(direction.y, direction.x)*Mathf.Rad2Deg;
+            _pressingMouse=false;
+            _Fire();
         }
-        
-        Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-        gun.transform.rotation=Quaternion.Slerp(gun.transform.rotation, rotation,donusHizi*Time.deltaTime);
+
+        if(_pressingMouse)
+        {
+          Vector3 mousePos = _cam.ScreenToWorldPoint(Input.mousePosition);
+          mousePos.z =0;
+
+          transform.LookAt(mousePos);
+        }
+    }
+
+    private void _Fire()
+    {
+        GameObject cannonBall = Instantiate(cannonBallPrefab, firePoint.position, Quaternion.identity);
+        Rigidbody rb = cannonBall.GetComponent<Rigidbody>();
+        rb.AddForce(_initialVelocity, ForceMode.Impulse);
     }
 }
